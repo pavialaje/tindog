@@ -1,0 +1,177 @@
+/* ..............................***General groups */
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+/*...............................*** heading's group*** ........................*/
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat';
+}
+
+.big-heading{
+  font-weight: 900;
+  font-size: 2.8rem;
+  line-height: 1.75;
+  color: #fff;
+  /* padding-bottom: 25px; */
+}
+
+.testimonials-heading{
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-weight: bold;
+  line-height: 1.5rem;
+  font-size: larger;
+}
+/* ..................................fluid container............................*/
+.container-fluid {
+  padding: 7% 15%;
+}
+/* ............................*** background color section***..................*/
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+/*................................. Navabar section ...........................*/
+nav {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: x-large;
+  padding-top: 0;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 3% 5% 3% 0;
+}
+
+.nav-link {
+  font-family: 'Montserrat-light';
+  font-size: 1.25rem;
+}
+
+/*..............................***donload-button***...........................*/
+.download-button {
+  margin: 3% 5% 3% 0;
+}
+
+/* .............................***Title Section***.............................*/
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.title-row {
+  margin-top: 4%;
+}
+
+.title-image {
+  transform: rotate(25deg);
+  width: 25%;
+  right: 20%;
+  position: absolute;
+}
+
+/*....................................... feature's section   ...............................*/
+#features {
+  position: relative;
+  /* z-index: 1;  */
+  < !-- here we do not need to add z index value to 1 beacause we are
+   applying position for image bdy and feature section if one of them
+   dont have index then which is at bottom or came last will be on top
+   of the first one-->
+}
+
+.features-icons {
+  color: #eF8172;
+  padding-bottom: 20px
+}
+
+/* change font color on hower  */
+.features-icons:hover {
+  color: #ff4c68
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*.......................... testimonials section and press section............................*/
+#testimonials {
+  background-color: #eF8172;
+}
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #eF8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*................................ pricing section......................................... */
+
+.pricing-button:hover {
+  background-color: #212529;
+  color: #fff;
+}
+/* ...............................Call To Action Section..................................... */
+
+
+/* ..............................Footer's section ........................................... */
+
+.footer-icons{
+  padding: 0 2% 2%;
+  color: #515357;
+}
+
+/* ............................Mobile friendly layout section--------------------------------  */
+@media (max-width:1000px) {
+  .title-row{
+    text-align: center;
+
+  }
+  .title-image {
+    padding: 10% 0 10%;
+    position: static;
+    width: 60%;
+    transform: rotate(0);
+  }
+
+  #features {
+    position: static;
+
+    /* background-color: #fff; */
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 1.75;
+    padding-bottom: 25px;
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .testimonials-image {
+    width: 30%;
+  }
+
+}
